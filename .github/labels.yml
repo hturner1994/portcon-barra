@@ -1,0 +1,28 @@
+---
+- name: breaking
+  description: Breaking Changes
+  color: 7c3ea5
+- name: feature
+  description: New feature
+  color: a2eeef
+- name: bug
+  description: Identifies a bug
+  color: d73a4a
+- name: removal
+  description: Removals and Deprecations
+  color: f00000
+- name: chore
+  description: Maintain code
+  color: fc964e
+- name: dependencies
+  description: Update dependencies
+  color: 00ce44
+- name: question
+  description: Requests more information
+  color: d876e3
+- name: "skip-changelog"
+  description: Changes that should be omitted from the release notes
+  color: ededed
+- name: dependencies
+  description: Dependencies
+  color: 00ce44

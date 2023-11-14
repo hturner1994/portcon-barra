@@ -17,6 +17,6 @@ jobs:
         uses: crazy-max/ghaction-github-labeler@v4.0.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          yaml-file: .github/labeler.yml
+          yaml-file: .github/labels.yml
           skip-delete: false
           dry-run: false
