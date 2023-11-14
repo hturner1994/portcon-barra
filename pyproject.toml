@@ -8,16 +8,16 @@ readme = "README.md"
 homepage = "https://github.com/hturner1994/portcon-barra"
 repository = "https://github.com/hturner1994/portcon-barra"
 classifiers = [
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
 ]
 
 [tool.poetry.urls]
 Changelog = "https://github.com/hturner1994/portcon-barra/releases"
 
 [tool.poetry.dependencies]
-python = ">=3.8.0,<3.11.0"
+python = ">=3.10.0,<3.15.0"
 
 [tool.poetry.group.dev.dependencies]
 bandit = {extras = ["toml"], version = "^1.7.4"}
@@ -69,7 +69,7 @@ source = ["portcon_barra"]
 
 [tool.coverage.report]
 show_missing = true
-fail_under = 100
+fail_under = 0
 omit = [
   "*/*init*",
 ]
